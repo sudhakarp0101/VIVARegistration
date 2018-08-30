@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sudhakar.vivaregistration.GrroupActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventtitle"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/persontitle"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/branch_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/year_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollno_ed"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Roll Number"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_ed"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/college_ed"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter College"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+</LinearLayout>

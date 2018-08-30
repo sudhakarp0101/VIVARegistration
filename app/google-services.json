@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282903145785",
+    "firebase_url": "https://vivaregistration.firebaseio.com",
+    "project_id": "vivaregistration",
+    "storage_bucket": "vivaregistration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282903145785:android:e000bee6ec449766",
+        "android_client_info": {
+          "package_name": "com.example.sudhakar.vivaregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282903145785-16pb8vcs48q46peqve4qfgdh1hs1um80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sudhakar.vivaregistration",
+            "certificate_hash": "06c9156bc742e24dd392d6a76a7c21f3d31a23b9"
+          }
+        },
+        {
+          "client_id": "282903145785-hcc8bvr268up0306jfvlk41hjdk029ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyColKgmUCN9yjCPT64otK12pOjpmrW_iCI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282903145785-hcc8bvr268up0306jfvlk41hjdk029ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
